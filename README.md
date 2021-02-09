@@ -1,6 +1,6 @@
 # TGI Mega Repo
 
-### **Bienvenue sur le répertoire de TGI** ! :rocket:
+### **Bienvenue sur le répertoire de TGI ! :rocket:**
 
 Ce répertoire a pour but de permettre aux étudiants de collaborer et de mieux se préparer aux examens en partageant des solutions à des exercices / devoirs. 
 En programmation il y a plusieurs façons d'interpréter le code et peut-être qu'un de ces solutionnaires vous aidera.
@@ -9,7 +9,7 @@ En programmation il y a plusieurs façons d'interpréter le code et peut-être q
 
 ***
 
-### **Welcome to the TGI repository !** :rocket:
+### **Welcome to the TGI repository ! :rocket:**
 
 This repository aims to allow students to collaborate and better prepare for exams by sharing solutions to exercises / homework.
 In programming there are many ways to interpret the code and maybe one of these solutions will help you.
@@ -32,7 +32,7 @@ Come chat with us !
 
 - To download the entire repository, click on the **Download ZIP** button.
 
-![](assets/usage_image.png)
+![](assets/repo_usage.png)
 
 ## Contribution / Contributing :handshake:
 
