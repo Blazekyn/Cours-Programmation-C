@@ -1,0 +1,43 @@
+Le code de tri est erronné : pour l'itération i=0, j descend jusqu'à 0 (à cause de la condition j >= i) et dans l'itération imbriquée tu accèdes à notes[j-1], c'est-à-dire notes[-1].
+
+Ton code de tri est erronée et il fait planter ton programme: 
+Ton code de tri ne fonctionne pas (condition de boucle interne erronée):
+
+Ton code de tri suppose que le tableau est de taille 10, alors que sa taille peut varier selon l'invocation:
+
+Calcul de l'écart-type
+
+Calcul de la médiane
+
+Ton code n'est pas documenté tel qu'exigé pour les devoirs.
+
+Le bloc de commentaires en début de fichier n'est pas conforme aux exigences:
+Chaque fonction de ton programme doit avoir un bloc commentaire au début qui indique ce que fait celle-ci:
+Attention à l'indentation de ton code:
+
+Évite de laisser plusieurs lignes vides successives. La prochaine fois, ce sera pénalisé. 
+Chaque fonction de ton programme doit avoir un bloc commentaire au début qui indique ce que fait celle-ci. La prochaine fois, ce sera pénalisé.
+
+Tu exploites des variables globales qui devraient être locales au programme principal.
+Ta fonction statistiques() n'a aucun paramètre!!! Ce n'était pas ce qui était demandé!
+
+Ta fonction suppose que le tableau est de taille 10, alors que sa taille peut varier selon l'invocation:
+
+Moyenne et écart-type erronés à cause de divisions entières:
+Écart-type erroné à cause de division entière:
+Moyenne erronée à cause de division entière:
+
+Calcul de l'écart-type erroné:
+Calcul de l'écart-type: tu supposes que ton tableau est de taille 10, alors que sa taille est en réalité fournie via paramètre.
+Calcul de l'écart-type erroné (diviseur incorrect):
+
+Calcul de médiane: tu supposes que ton tableau est de taille 10, alors que sa taille est en réalité fournie via paramètre.
+Calcul de la médiane erroné:
+
+L'instruction return ne peut pas retourner trois résultats!!!
+
+Attention à l'indentation de ton code dans les fonctions.
+
+Tu as une boucle vide dans ta fonction. Pourquoi?
+
+Tu ne dois pas avoir des cout dans ta fonction car ce n'est pas son rôle d'afficher des résultats dans la console.
