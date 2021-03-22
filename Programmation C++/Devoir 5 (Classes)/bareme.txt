@@ -1,0 +1,77 @@
+/25
+
+======================
+
+// Programme principal : teste la classe Rationnel
+int _tmain(int argc, _TCHAR* argv[])
+{
+	Rationnel r1,			// devrait être 1/1
+	          r2( 2 ),		// devrait être 2/1
+	          r3( 15, 20 ),		// devrait être 3/4
+	          r4( 5, -6 );  	// devrait être -5/6 (le signe doit toujours être attribué au numérateur)
+
+	// Afficher les instances pour validation
+	afficherRationnel( "r1 = ", r1 );		// devrait afficher  1/1,  1
+	afficherRationnel( "r2 = ", r2 );		// devrait afficher  2/1,  2
+	afficherRationnel( "r3 = ", r3 );		// devrait afficher  3/4,  0.75
+	afficherRationnel( "r4 = ", r4 );		// devrait afficher -5/6, -0.833333
+
+	// Tester l'addition de r2 à r4, puis afficher le résultat pour validation
+	r4.additionner( r2 );
+	afficherRationnel( "\nr4 = r4 + r2 >>> r4 = ", r4 );	// devrait afficher 7/6, 1.16667
+
+	// Tester la soustraction de r3 à r4, puis afficher le résultat pour validation
+	r4.soustraire( r3 );
+	afficherRationnel( "r4 = r4 - r3 >>> r4 = ", r4 );		// devrait afficher 5/12, 4.16667
+
+	// Tester la division de r4 à r3, puis afficher le résultat pour validation
+	r4.diviser( r3 );
+	afficherRationnel( "r4 = r4 / r3 >>> r4 = ", r4 );		// devrait afficher 5/9, 0.55556
+
+	// Tester la multiplication de r2 à r4, puis afficher le résultat pour validation
+	r4.multiplier( r2 );
+	afficherRationnel( "r4 = r4 * r2 >>> r4 = ", r4 );		// devrait afficher 10/9, 1.11111
+ 
+	// Attendre confirmation pour fermer la console 
+	std::cout << "\n\nPressez une touche pour terminer..." << std::endl;
+	_getch();
+
+
+	return 0;
+}
+
+======================
+
+Le projet soumis ne compile pas : ?? erreurs de syntaxe!
+
+Il est toujours mieux de soumettre un projet partiellement complété qui fonctionne plutôt qu'un projet avec erreurs de syntaxe qui ne peut servir à rien.
+
+Manque de documentation (commentaires): -3
+Manque de documentation (commentaires): -2
+Manque de documentation (commentaires): -1
+
+À part ça, bon travail!
+
+Tu avais une erreur de syntaxe (; oublié à la fin de déclaration de la classe Rationnel): -2
+
+L'addition est erronée: -2
+La soustraction est erronée: -2
+La multiplication est erronée: -2
+La division est erronée: -2
+
+Tu as oublié de réduire dans un constructeur: -1
+
+Tu as oublié de réduire dans la multiplication: -1
+Tu as oublié de réduire dans la division: -1
+
+Tu aurais dû faire une fonction membre privée pour effectuer la réduction plutôt que dupliquer ce code dans toutes les fonctions membres! -4
+
+Ton code de réduction ne fonctionne pas toujours: -2
+Ton code de réduction ne fonctionne pas: -4
+
+Ton code de réduction devrait être dans une fonction privée, afin d'éviter de dupliquer ainsi ce code dans toutes les fonctions: -2
+
+Tu ne devrais pas avoir des cout dans les fonctions membres de Rationnel (sauf où c'est VRAIMENT essentiel): -2
+
+Il n'y a aucune raison d'avoir des pointeurs comme attributs membres! Ça complique l'utilisation de la classe pour rien: -3
+

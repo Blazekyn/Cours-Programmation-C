@@ -1,0 +1,29 @@
+/ 10
+
+Chaque fichier devrait avoir en en-tête un bloc commentaire décrivant son contenu: -1
+
+Ton code manque cruellement de commentaires! -2
+
+La variable static tauxInteretAnnuel doit être membre de la classe: -2
+La fonction static modifierTauxInteret doit être membre de la classe: -2
+
+La fonction static modifierTauxInteret doit recevoir le nouveau taux via paramètre: -3
+
+Lors de l'application du taux d'intéret au solde, il doit être divisé par 12 pour en faire un taux mensuel: -4
+
+Ton code de calculInteretMensuel change le taux à chaque invocation!!! -4
+
+Il ne devrait pas y avoir de cout dans les fonctions membres de la classe (c'est au programme principal de s'occuper des entrées/sorties): -2
+
+Ton programme ne fonctionne pas correctement (la variable tauxInteretAnnuel ne conserve pas sa valeur). Tu aurais dû t'en apercevoir et rectificer la situation: -6
+
+L'attribut soldeEpargne devrait être float ou double afin de gérer adéquatement les sous: -1
+
+Tu dois diviser le taux d'intérêt donné par 100 (p.ex. 3% = facteur 0.03): -2
+
+Tu n'as pas zippé l'ensemble de ton projet! J'ai mentionné en classe comment vous assurer de le faire: -2
+
+Tu n'as pas initialiser la variable static tauxInteretAnnuel dans ton fichier .CPP: -2
+Le taux d'intérêt annuel par défaut est 3%: -1
+
+À part ça, bon travail
